@@ -1,0 +1,28 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	list-style-type: none;
+}
+
+/* top-info */
+div.top-info {
+	float: right;
+	padding-right: 20px;
+}
+div.top-info ul li {
+	display: inline-block;
+}
+
+/* button in home-user menu */
+input.decorBtn {
+	border-width: 0;
+	background-color: #fff;
+}
+input.decorBtn:hover {
+	text-decoration: underline;
+}
